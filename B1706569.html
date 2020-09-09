@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			text-align: left;
+			font-family: Arial;
+			box-sizing: border-box;
+			
+
+		}
+		p{
+			line-height: 30px;
+		}
+		.right, .header{
+			background-color: red;
+
+		}
+		table{
+			width: 100%;
+			border-style: double;
+		}
+		.header, .right{
+			color: white;
+		}
+		.header h1{
+			margin-bottom: 0px;
+			margin-left: 20px;
+		}
+		.header p{
+			margin-top: 0px;
+			margin-left: 20px;
+		}
+		
+		.header td{
+			border-bottom: 10px white solid;
+		}
+		
+		.left, .right{
+			vertical-align: top;
+		}
+		.left p{
+			border: 1px solid #1aa3ff;
+			background-color: #1aa3ff;
+			border-radius: 5px;
+			width: 250px;
+			padding: 5px;
+			margin-top: 10px;
+		}
+		p:first-child{
+			margin-top: 0px;
+		}
+		.right{
+			padding: 20px 10px 0px 10px;
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+			}
+		.cen{
+			padding-left: 20px;
+		}
+		
+	</style>
+</head>
+<body>
+<table>
+	<tr class="header">
+		<td colspan="3">
+			<h1>Welcome to My Homepage</h1>
+			<p>Use the menu to select different Stylesheets</p>
+		</td>
+	</tr>
+	<tr class="centent">
+		<td class="left">
+			<div class="left-content">
+				<p>Stylesheet 1</p>
+				<p>Stylesheet 2</p>
+				<p>Stylesheet 3</p>
+				<p>Stylesheet 4</p>
+				<p>No Stylesheet</p>
+			</div>
+		</td>
+		<td class="cen">
+			<h1>Same Page Different Stylesheets</h1>
+			<p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links: </p>
+			<a href="@">Stylesheet1</a>,
+			<a href="@">Stylesheet2</a>,
+			<a href="@">Stylesheet3</a>,
+			<a href="@">Stylesheet4</a>.
+			<h2>No Styles</h2>
+			<p>This is page uses DIV elements to group different selection of the HTML page. Click here to see how the page looks like with no stylesheet : </p>
+			<a href="@">No Stylesheet</a>
+		</td>
+		<td class="right">
+			<h2>Side-bar</h2>
+			<p>Lorem ipsum dolor amet, conserceteba adipiscing elit, snd diam nonummy ndh euismod timcid go laoreet dolore many aliquan erat volique</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
